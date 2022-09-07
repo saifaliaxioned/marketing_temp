@@ -247,6 +247,25 @@ li {
   main styling starts here
 =================================*/
 
+.banner .wrapper {
+  padding: 71px 0;
+}
+
+.logo h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.logo p::first-letter {
+  text-transform: capitalize;
+}
+
+.logo p {
+  font-size: 20px;
+  padding: 29px 0 40px 0;
+}
+
 /*=================================
   main styling ends here
 =================================*/
