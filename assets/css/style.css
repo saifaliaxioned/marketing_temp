@@ -503,6 +503,11 @@ li {
   text-transform: capitalize;
   margin: 6%;
   padding: 20px 7%;
+  transition: all 0.5s ease;
+}
+
+.price-btn a:hover {
+  background: rgb(86, 207, 90);
 }
 
 /* section 2 end */
