@@ -204,6 +204,22 @@ li {
   Header styling starts here
 =================================*/
 
+.navbar {
+  background: rgb(216, 216, 216);
+  padding: 19px 0;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+}
+
 /*=================================
   Header styling ends here
 =================================*/
