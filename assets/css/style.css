@@ -355,7 +355,158 @@ li {
   padding: 3px 12px;
 }
 
-/* section 1 */
+/* section 1 end */
+
+/* section 2 start */
+
+.sec-heading {
+  text-align: center;
+  margin: 13px 0 19px 0;
+}
+
+.sec-heading h2 {
+  display: inline-block;
+  font-size: 33px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-bottom: 8px solid rgb(204, 204, 204);
+  padding: 10px 0 20px 0;
+}
+
+.off-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.card-body {
+  padding: 20px 2.5% 30px 1.6%;
+}
+
+.card-body:nth-child(1) {
+  color: rgb(0, 0, 0);
+  background: rgb(241, 241, 241);
+}
+
+.card-body:nth-child(2) {
+  color: rgb(0, 0, 0);
+  background: rgb(187, 187, 187);
+}
+
+.card-body:nth-child(3) {
+  color: rgb(255, 255, 255);
+  background: rgb(97, 97, 97);
+}
+
+.card-body:nth-child(4) {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-size: 34px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.card-desc {
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.price-heading {
+  text-align: center;
+}
+
+.price-heading h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 57px 0 27px 0;
+}
+
+.price-heading p {
+  font-size: 20px;
+  padding-bottom: 86px;
+}
+
+.price-temp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-title {
+  font-size: 35px;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  padding: 45px;
+}
+
+.price-card {
+  flex-basis: 32%;
+}
+
+.price-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.detail-list {
+  padding: 28px 3%;
+  border-top: 1px solid rgb(226, 226, 226);
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.detail-list:nth-child(2) .bold-txt {
+  text-transform: uppercase;
+}
+
+.detail-list:nth-child(6) {
+  font-size: 19px;
+  text-transform: lowercase;
+  color: rgb(92, 89, 89);
+}
+
+.detail-list:nth-child(6) .bold-txt {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  font-size: 52px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.price-card:nth-child(2) .price-title {
+  background: rgb(97, 97, 97);
+}
+
+.bold-txt {
+  font-weight: bold;
+}
+
+.price-btn {
+  border-top: 1px solid rgb(226, 226, 226);
+  background: rgb(241, 241, 241);
+}
+
+.price-btn a {
+  color: rgb(255, 255, 255);
+  background: rgb(69, 157, 72);
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 6%;
+  padding: 20px 7%;
+}
+
+/* section 2 end */
+
 /*=================================
   main styling ends here
 =================================*/
