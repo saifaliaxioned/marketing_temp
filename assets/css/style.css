@@ -247,6 +247,8 @@ li {
   main styling starts here
 =================================*/
 
+/* section 1 start */
+
 .banner .wrapper {
   padding: 71px 0;
 }
@@ -267,6 +269,93 @@ li {
   padding: 29px 0 40px 0;
 }
 
+.slides {
+  display: none;
+}
+
+.slide-active {
+  display: block;
+}
+
+.slide-img {
+  position: relative;
+}
+
+.slide-btn a {
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  padding: 17px 24px;
+  transition: all 0.5s ease;
+}
+
+.slide-btn a:hover {
+  background: rgb(0, 0, 0);
+  color: rgb(241, 241, 241);
+}
+
+.slide-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2.4%;
+  background: rgb(255, 255, 255);
+}
+
+.slide-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 1.5%;
+  background: rgb(97, 97, 97);
+  color: rgb(241, 241, 241);
+}
+
+.slide-controls a {
+  color: rgb(241, 241, 241);
+}
+
+.pre-btn,
+.nxt-btn {
+  text-indent: -9999px;
+}
+
+.pre-btn::before,
+.nxt-btn::before {
+  text-indent: 0;
+  font-family: "FontAwesome";
+  float: left;
+  font-size: 30px;
+}
+
+.pre-btn::before {
+  content: "\f0a8";
+  transition: all 0.5s ease;
+}
+
+.nxt-btn::before {
+  content: "\f0a9";
+  transition: all 0.5s ease;
+}
+
+.pre-btn:hover::before,
+.nxt-btn:hover::before {
+  color: rgb(0, 0, 0);
+}
+
+.box {
+  display: flex;
+}
+
+.box-list {
+  display: block;
+  text-indent: -9999px;
+  background: rgb(241, 241, 241);
+  margin: 0 4%;
+  padding: 3px 12px;
+}
+
+/* section 1 */
 /*=================================
   main styling ends here
 =================================*/
