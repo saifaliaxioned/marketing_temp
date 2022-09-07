@@ -251,7 +251,8 @@ li {
   padding: 71px 0;
 }
 
-.logo h1 {
+.logo a {
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 48px;
