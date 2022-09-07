@@ -205,8 +205,8 @@ li {
 =================================*/
 
 .navbar {
-  background: rgb(216, 216, 216);
-  padding: 19px 0;
+  background: rgb(241, 241, 241);
+  padding: 15px 0;
 }
 
 .nav-items {
@@ -214,10 +214,29 @@ li {
   justify-content: space-around;
   align-items: center;
 }
+
 .links {
-  font-size: 30px;
+  font-size: 22px;
   text-transform: capitalize;
   color: rgb(0, 0, 0);
+}
+
+.links::after {
+  content: " ";
+  width: 0;
+  display: block;
+  height: 2px;
+  border-radius: 12px;
+  background: rgb(0, 0, 0);
+  transition: all 0.5s ease;
+}
+
+.links:hover {
+  color: rgb(92, 91, 91);
+}
+
+.links:hover::after {
+  width: 100%;
 }
 
 /*=================================
