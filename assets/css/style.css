@@ -436,6 +436,7 @@ li {
 .price-temp {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 88px;
 }
 
 .price-title {
