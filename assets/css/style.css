@@ -513,6 +513,69 @@ li {
 
 /* section 2 end */
 
+/* section 3 start */
+
+.emp-sec {
+  padding-bottom: 28px;
+}
+
+.emp-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.emp-content {
+  flex-basis: 32.2%;
+  box-shadow: 0px 6px 16px rgb(0, 0, 0, 0.4);
+}
+
+.emp-details {
+  padding: 21px;
+}
+
+.emp-name,
+.emp-post {
+  text-transform: capitalize;
+}
+
+.emp-name {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.emp-post {
+  display: block;
+  padding: 23px 0 15px 0;
+  font-size: 19px;
+  color: rgb(122, 122, 122);
+}
+
+.emp-desc {
+  line-height: 26px;
+  font-size: 19px;
+  padding: 4px 10% 17px 0;
+}
+
+.emp-btn a {
+  display: block;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background: rgb(241, 241, 241);
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 14px 0;
+  transition: all 0.5s ease;
+}
+
+.emp-btn a:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+
+/* section 3 end */
+
 /*=================================
   main styling ends here
 =================================*/
